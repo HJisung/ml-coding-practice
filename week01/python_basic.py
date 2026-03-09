@@ -419,3 +419,8 @@ print(f)
 
 # 파일 닫기
 f.close()
+
+# 파일 쓰기
+f = open('example.txt', 'w')
+for i in range(1, 6):
+  data = 
