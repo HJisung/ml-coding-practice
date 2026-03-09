@@ -428,4 +428,6 @@ for i in range(1, 6):
 f.close()
 
 # 파일에 내용 추가하기
-f = o
+f = open('example.txt', 'w')
+for i in range(6, 11):
+  data = '%d번째 줄 추가입니다. 
