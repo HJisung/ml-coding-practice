@@ -408,4 +408,9 @@ import urllib.request
 urllib.request.Request('http://www.sunmoon.ac.kr')
 
 import pandas
-p
+pandas.DataFrame()
+
+from datetime import datetime
+datetime.now()
+
+#
