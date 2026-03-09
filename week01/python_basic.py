@@ -143,4 +143,11 @@ print(a)
 
 # 원소 삭제
 a.remove(99)
+print(a)
+
+b = [1, 2, 3]
+print(b.pop())
+print(b)
+
+print(b.pop(0))
 prin
