@@ -370,4 +370,8 @@ print(sum(3, 5))
 
 # 최대, 최소값 반환
 print(max([1, 4, 2, 8, 6]))
-pri
+print(max("Python"))
+
+print(min([1, 4, 2, 8, 6]))
+print(min("Python"))
+
