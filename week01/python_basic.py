@@ -289,4 +289,8 @@ for i in test_list:
 
 # for 반복문2
 number = 0
-for s"""
+for score in [90, 25, 67, 45, 93]:
+  number += 1
+
+  if score > 60:
+    p"""
