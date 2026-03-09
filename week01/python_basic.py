@@ -302,3 +302,10 @@ i = 0
 while i < 5:
   i += 1
   print('*' * i)
+
+# 함수 정의
+def sum1(a, b):
+  x = a + b
+  return x
+
+def sum2(*args):
