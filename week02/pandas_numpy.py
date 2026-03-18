@@ -6,4 +6,7 @@ sample = pd.read_csv(file_url)
 print(sample.head())
 print(sample.tail())
 
-sample.
+sample.info()
+sample.describe()
+
+sample_dic = {'name': 
