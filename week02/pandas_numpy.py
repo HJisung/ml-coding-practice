@@ -137,4 +137,7 @@ data = {
 }
 
 # Dataframe 생성
-df = pd
+df = pd.DataFrame(data)
+print(df.head())
+
+# 개인별 과목 점수의 평
