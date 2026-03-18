@@ -132,3 +132,5 @@ print(result)
 data = {
     'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
     'math': [88, 92, 85, 95, 90],
+    'science': [80, 85, 88, 92, 85],
+    'english'
