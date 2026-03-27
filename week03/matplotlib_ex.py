@@ -103,4 +103,7 @@ plt.close()
 
 # 사망자와 생존자의 수 계산
 survived_counts = titanic['Survived'].value_counts()
-print(survive"""
+print(survived_counts)
+
+# 파이 차트 그리기
+plt.figure(figsize=(8, 8))"""
