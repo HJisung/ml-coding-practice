@@ -222,4 +222,7 @@ violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1]['Age'],
 
 plt.title('Violin Plot of Age by Pclass')
 plt.xlabel('Pclass')
-plt.ylabel('Age'"""
+plt.ylabel('Age')
+
+# x축의 눈금 설정
+plt.xticks([1, 2, 3], ['1st Class"""
