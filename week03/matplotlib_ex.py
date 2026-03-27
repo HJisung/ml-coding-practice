@@ -95,4 +95,5 @@ plt.title('Age and Fare Relationship with Survival on the Titanic')
 plt.xlabel('Age')
 plt.ylabel('Fare')
 plt.legend(handles=scatter.legend_elements()[0], title='Survived',
-           labels=['Not Surviv"""
+           labels=['Not Survived', 'Survived'], loc='upper right')
+plt.savefig('Fi"""
