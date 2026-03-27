@@ -121,4 +121,8 @@ print(titanic.info(), '\n')
 
 # 나이 결측치 처리 후
 titanic = titanic.dropna(subset=['Age'])
-print(titanic.in"""
+print(titanic.info())
+
+# 히스토그램 그리기
+plt.figure(figsize=(10, 6))
+p"""
