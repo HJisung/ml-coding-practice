@@ -47,4 +47,6 @@ plt.xlabel('Embarked Port')
 plt.ylabel('Count')
 plt.xticks(survived_counts.index, ['Southampton', 'Cherbourg', 'Queenstown'])
 plt.legend(['Survived'], loc='upper right')
-plt.grid(a
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+# 생존자 수 표시
