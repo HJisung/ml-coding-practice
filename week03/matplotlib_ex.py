@@ -357,4 +357,5 @@ axes[1].tick_params(axis='y', labelcolor='deeppink')
 axes[1].legend(loc='upper right')
 
 # 제목 설정
-fig.suptitle('Survival Analysis by Number of Parents/
+fig.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
+fig.tight_layout(
