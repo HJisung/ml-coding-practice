@@ -71,4 +71,6 @@ sns.histplot(tips['tip'], bins=30, kde=True, color='skyblue')
 plt.title('Histogram with KDE for Tips')
 plt.savefig('./week04/Seaborn_Figure04.jpg')
 
-# **조인트 
+# **조인트 그래프**
+# jointplot( ) 그리기
+sns.jointplot(x='size', y
