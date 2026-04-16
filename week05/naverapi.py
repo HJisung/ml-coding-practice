@@ -8,4 +8,5 @@ client_secret = 'wTYAnk3m07'
 
 def main():
 
-    node = 'news'                   
+    node = 'news'                                             # 크롤링할 대상
+    srcText
