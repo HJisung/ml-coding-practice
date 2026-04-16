@@ -73,4 +73,7 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
   else:
     return json.loads(responseDecode)
 
-"""### [CO"""
+"""### [CODE 1]"""
+
+def getRequestUrl(url):  #[CODE 1]
+  r"""
