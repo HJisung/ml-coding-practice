@@ -60,4 +60,4 @@ def getRequestUrl(url):
     try:
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
-            pr
+            print("[%s] Url Request Success" % datetime.datetime.no
