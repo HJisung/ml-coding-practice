@@ -70,4 +70,5 @@ def getRequestUrl(url):
 
 def getPostData(post, jsonResult, cnt):  #[CODE 3]
     title = post['title']
-    description = po
+    description = post['description']
+    org_link = post['originallink
