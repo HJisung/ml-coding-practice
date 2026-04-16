@@ -9,4 +9,7 @@ client_secret = 'wTYAnk3m07'
 def main():
 
     node = 'news'                                             # 크롤링할 대상
-    srcText
+    srcText = input('검색어를 입력하세요: ')
+
+    cnt = 0
+    jsonR
