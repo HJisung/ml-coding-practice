@@ -21,3 +21,7 @@ def plot_digit(image_data):
 some_digit = X[0]
 plot_digit(some_digit)
 plt.show()
+
+print(y[0])         # 샘플 데이터 레이블 확인 (=5)
+
+# 1
