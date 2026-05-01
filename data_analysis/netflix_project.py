@@ -64,4 +64,6 @@ age_group_dic = {
     'TV-14': 'Young Adults',
     'NC-17': 'Adults',
     'NR': 'Adults',
-    'U
+    'UR': 'Adults',
+    'R': 'Adults',
+    'TV-MA': 'Adu
