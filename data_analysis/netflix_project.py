@@ -13,4 +13,7 @@ netflix.head()
 # .columns : 열 이름 확인
 list(netflix.columns)
 
-# .head(3) : 데이
+# .head(3) : 데이터 처음 3개의 행 출력
+netflix.head(3)
+
+# .info() : 열에 대한
