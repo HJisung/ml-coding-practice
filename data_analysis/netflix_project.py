@@ -139,3 +139,5 @@ plt.xlabel('Count', fontsize=14)
 plt.ylabel('Genre', fontsize=14)
 plt.grid(axis='x')
 plt.show()
+
+netflix[netflix['title'].str.contains('Sankofa', 
