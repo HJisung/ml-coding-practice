@@ -79,4 +79,6 @@ netflix.head(2)
 netflix.to_csv('netflix_preprocessed.csv', index=False)
 
 import numpy as np
-import pandas as
+import pandas as pd
+import matplotlib.pyplot as plt
+import seabor
