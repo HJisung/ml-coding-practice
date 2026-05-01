@@ -20,4 +20,5 @@ netflix.head(3)
 netflix.info()
 
 # 넷플릭스 결측치 비율 확인하기
-fo
+for i in netflix.columns :
+    missingValueRate = ne
