@@ -157,4 +157,5 @@ netflix_age_country
 netflix_age_country[netflix_age_country['title'].str.contains('Sankofa', na=False, case=False)]
 
 # 각 나이 그룹에 따른 국가별 넷플릭스 콘텐츠 수 구하기
-netflix_age_country_unstack = netflix_age_country.groupby('age
+netflix_age_country_unstack = netflix_age_country.groupby('age_group')['country'].value_counts().unstack()
+netfli
