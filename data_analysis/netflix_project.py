@@ -58,4 +58,5 @@ age_group_dic = {
     'TV-Y': 'All',
     'PG': 'Older Kids',
     'TV-Y7': 'Older Kids',
-    'T
+    'TV-Y7-FV': 'Older Kids',
+    'TV-PG': 'Older Kids',
