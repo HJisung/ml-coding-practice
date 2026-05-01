@@ -66,4 +66,7 @@ age_group_dic = {
     'NR': 'Adults',
     'UR': 'Adults',
     'R': 'Adults',
-    'TV-MA': 'Adu
+    'TV-MA': 'Adults'
+    }
+
+# map 함수를 이용하여 rating 컬럼의 값을 딕셔너리를 기
