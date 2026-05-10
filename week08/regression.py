@@ -9,4 +9,4 @@ plt.rc('ytick', labelsize=10)
 
 import numpy as np
 
-np.random
+np.random.seed(42)                        # 코드 예제를 재현 가능하게 
