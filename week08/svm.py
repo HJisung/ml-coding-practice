@@ -60,4 +60,7 @@ svm_reg = make_pipeline(StandardScaler(),
                         LinearSVR(epsilon=0.5, dual=True, random_state=42))
 svm_reg.fit(X, y)
 
-from sklearn.svm impor
+from sklearn.svm import SVR
+
+# 이 세 줄은 간단한 2차방정식 데이터셋을 생성합니다.
+np.random
