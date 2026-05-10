@@ -58,4 +58,4 @@ plt.axis([-3, 3, 0, 10])
 plt.grid()
 plt.show()
 
-fr
+from sklearn.preprocessing import PolynomialFeatures
