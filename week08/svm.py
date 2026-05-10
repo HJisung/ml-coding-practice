@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
 # 선형 SVM 분류
 
-import n
+import numpy as np
+from sklearn.datasets import load_iris
