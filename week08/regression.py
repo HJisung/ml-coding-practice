@@ -119,4 +119,7 @@ print(ridge_reg.predict([[1.5]]))
 
 # 라쏘 회귀
 
-from sklearn.linear_model im
+from sklearn.linear_model import Lasso
+
+lasso_reg = Lasso(alpha=0.1)
+lasso_reg
