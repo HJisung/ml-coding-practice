@@ -18,4 +18,6 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
-plt.xla
+plt.xlabel("$x_1$")
+plt.ylabel("$y$", rotation=0)
+plt.axis
