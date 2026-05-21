@@ -10,4 +10,6 @@ tree_clf.fit(X_iris, y_iris)
 
 from sklearn.tree import export_graphviz
 
-ex
+export_graphviz(
+        tree_clf,
+        out_file
