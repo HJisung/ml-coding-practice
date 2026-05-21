@@ -1,2 +1,4 @@
 from sklearn.datasets import load_iris
-from sk
+from sklearn.tree import DecisionTreeClassifier
+
+iris = lo
