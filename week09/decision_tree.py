@@ -70,4 +70,6 @@ Source.from_file("regression_tree.dot")
 
 from sklearn.decomposition import PCA
 from sklearn.pipeline import make_pipeline
-from sklea"""
+from sklearn.preprocessing import StandardScaler
+
+pca_pipelin"""
