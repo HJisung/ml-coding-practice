@@ -72,4 +72,5 @@ from sklearn.decomposition import PCA
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-pca_pipelin"""
+pca_pipeline = make_pipeline(StandardScaler(), PCA())
+X_iris_ro
