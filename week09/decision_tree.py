@@ -30,4 +30,6 @@ print(tree_clf.predict([[5, 1.5]]))
 
 # 규제 매개변수
 
-fr
+from sklearn.datasets import make_moons
+
+X_moons, y_m
