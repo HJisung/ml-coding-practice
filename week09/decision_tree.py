@@ -3,4 +3,6 @@ from sklearn.tree import DecisionTreeClassifier
 
 iris = load_iris(as_frame=True)
 X_iris = iris.data[["petal length (cm)", "petal width (cm)"]].values
-y_iris = i
+y_iris = iris.target
+
+tree_clf = DecisionTreeClassifier(max_
