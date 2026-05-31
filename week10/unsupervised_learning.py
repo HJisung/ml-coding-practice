@@ -76,4 +76,5 @@ plt.axis([1.8, 8.5, 0.55, 0.8])
 plt.grid()
 plt.show()
 
-from sklearn.metrics import
+from sklearn.metrics import silhouette_samples
+from matplotlib.ticker import F
