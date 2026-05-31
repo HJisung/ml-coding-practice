@@ -88,4 +88,7 @@ for k in (3, 4, 5, 6):
     silhouette_coefficients = silhouette_samples(X, y_pred)
 
     padding = len(X) // 30
-    pos =
+    pos = padding
+    ticks = []
+    for i in range(k):
+  
