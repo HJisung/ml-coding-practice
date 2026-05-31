@@ -161,4 +161,7 @@ dbscan2.fit(X)
 plt.figure(figsize=(9, 3.2))
 
 plt.subplot(121)
-plot_dbsca
+plot_dbscan(dbscan, X, size=100)
+
+plt.subplot(122)
+plot_dbs
