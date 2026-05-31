@@ -117,3 +117,5 @@ for k in (3, 4, 5, 6):
 plt.show()
 
 # DBSCAN
+from sklearn.cluster import DBSCAN
+from sklearn.dat
