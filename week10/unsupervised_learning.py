@@ -146,4 +146,6 @@ def plot_dbscan(dbscan, X, size, show_xlabels=True, show_ylabels=True):
     if show_xlabels:
         plt.xlabel("$x_1$")
     else:
-        plt.tick_params(label
+        plt.tick_params(labelbottom=False)
+    if show_ylabels:
+        plt.yl
