@@ -166,4 +166,6 @@ plot_dbscan(dbscan, X, size=100)
 plt.subplot(122)
 plot_dbscan(dbscan2, X, size=600, show_ylabels=False)
 
-plt
+plt.show()
+
+from sklearn.neighbors import KNeighborsC
