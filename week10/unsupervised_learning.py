@@ -1,2 +1,4 @@
 # -*- coding: utf-8 -*-
-import matplotlib.pyplo
+import matplotlib.pyplot as plt
+
+plt.rc('font', family='Malgun Gothic')  
