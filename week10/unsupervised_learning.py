@@ -11,4 +11,5 @@ plt.rc('xtick', labelsize=10)
 plt.rc('ytick', labelsize=10)
 
 # K-평균
-from sklea
+from sklearn.cluster import KMeans
+from sklearn.datasets impor
