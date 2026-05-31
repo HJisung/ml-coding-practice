@@ -168,4 +168,6 @@ plot_dbscan(dbscan2, X, size=600, show_ylabels=False)
 
 plt.show()
 
-from sklearn.neighbors import KNeighborsC
+from sklearn.neighbors import KNeighborsClassifier
+
+X, y = make_moons(n_samples=1000, noise=
